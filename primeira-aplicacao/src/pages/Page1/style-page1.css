@@ -1,0 +1,27 @@
+.root {
+    --cor1: #E38B29;
+    --cor2: #F1A661;
+    --cor3: #FFD8A9;
+    --cor4: #FDEEDC;
+}
+
+* {
+    background-color: #F1A661;
+}
+
+.mainpage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.limita-secao {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* body {
+    overflow-x: hidden;
+}
+ */

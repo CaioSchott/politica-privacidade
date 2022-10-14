@@ -1,0 +1,48 @@
+.root {
+    --cor1: #E38B29;
+    --cor2: #F1A661;
+    --cor3: #FFD8A9;
+    --cor4: #FDEEDC;
+}
+
+.maind {
+    width: 60%;
+    height: 550px;
+    background-color: coral;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.secao-conteudo-principal {
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    padding: 20px;
+    overflow-y: scroll;
+    border-left: 2px solid rgba(53, 53, 53, 0.219);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 4px;
+    background-color: var(--cor1);
+    border-radius: 40px;
+}
+
+.chamada {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width:930px) {
+    .maind { width: 90%; };
+    .secao-conteudo-principal { width: 90%; }
+}
